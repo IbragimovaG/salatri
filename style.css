@@ -1,0 +1,91 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./Poppins/Poppins-Medium.ttf);
+}
+* {
+  font-family: Poppins, sans-serif;
+}
+
+.mainRight {
+  position: relative;
+}
+.mainRight img {
+  position: absolute;
+}
+.mainRight img:nth-child(1) {
+  top: 0;
+  right: 0;
+}
+.mainRight img:nth-child(2) {
+  top: 0;
+  left: -120px;
+}
+.mainRight img:nth-child(3) {
+  left: 0;
+  bottom: 0px;
+}
+.mainRight img:nth-child(4) {
+  left: 20px;
+  bottom: -50px;
+}
+.mainRight img:nth-child(5) {
+  bottom: -100px;
+  left: 70px;
+  z-index: -1;
+}
+.mainRight img:nth-child(6) {
+  bottom: -50px;
+  right: 40px;
+}
+.mainRight img:nth-child(7) {
+  bottom: -50px;
+  right: 50px;
+}
+
+.left {
+  position: relative;
+}
+.left img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.left img:nth-child(2) {
+  z-index: 1;
+  width: 380px;
+  margin: 40px 0 0 60px;
+}
+
+.think {
+  position: relative;
+}
+.think .textH1 {
+  margin-top: 20%;
+}
+.think img {
+  position: absolute;
+  bottom: -60px;
+  right: -45px;
+}
+
+.left2 {
+  position: relative;
+}
+.left2 img {
+  z-index: 1;
+  width: 380px;
+  margin: 40px 0 0 60px;
+}
+
+.think2 {
+  position: relative;
+}
+.think2 .textH1 {
+  margin-top: 30%;
+}
+.think2 img {
+  position: absolute;
+  bottom: -80px;
+  left: -45px;
+}/*# sourceMappingURL=style.css.map */
